@@ -267,8 +267,8 @@ def plot_noise_tdoa():
     ax.legend(legend)
 
 if __name__ == "__main__":
-    plot_heavytail('tdoa_htnoise.csv')
-    plot_heavytail('twr_htnoise.csv')
+    plot_heavytail('tdoa_ht_noise.csv')
+    plot_heavytail('twr_ht_noise.csv')
     plot_anchors('tdoa_anchors.csv')
     plot_anchors('twr_anchors.csv')
     #plot_noise_twr()
