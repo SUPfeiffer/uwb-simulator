@@ -34,7 +34,7 @@ If the GUI fails to start after pulling an update, delete the previous preferenc
 
 This simulator currently relies on log data for IMU measurements and groundtruth. UWB data can also be used from the same log, or it can be generated as specified by the selected anchors and noise shape. 
 
-Our own dataset is available on [4TU Research Data](). Alternatively, you can also collect logs from a Crazyflie using the [Crazyflie-suite](https://github.com/Huizerd/crazyflie-suite) or create use your own source of data (This should be csv files with the same columns as the examples in the dataset on 4TU Research Data).
+Our own dataset is available on [4TU Research Data](https://doi.org/10.4121/14827680). Alternatively, you can also collect logs from a Crazyflie using the [Crazyflie-suite](https://github.com/Huizerd/crazyflie-suite) or create use your own source of data (This should be csv files with the same columns as the examples in the dataset on 4TU Research Data).
 
 ### Estimators
 
