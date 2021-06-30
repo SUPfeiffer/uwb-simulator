@@ -1,0 +1,10 @@
+*__pycache__
+/.pytest_cache
+/.vscode
+/venv
+/data
+/publication/*
+!/publication/*.py
+*.egg-info
+*.yaml
+*.csv
