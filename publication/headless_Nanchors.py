@@ -24,6 +24,7 @@ runs_per_traj_file = 10
 mode = 'twr'
 data_folder = os.path.join(UWBsim.DATA_DIR, 'publication_run')
 anchor_file = os.path.join(UWBsim.BASE_DIR, 'anchor_positions.yaml')
+publication_folder = os.path.dirname(os.path.realpath(__file__))
 
 
 # Set Estimator parameters
@@ -63,7 +64,7 @@ params.ranging.source = RangingSource.LOG
 
 
 # Create unique output file
-output_file = 'publication/{}_anchors.csv'.format(mode)
+output_file = os.path.join(publication_folder, '{}_anchors.csv'.format(mode))
 
 i = 1
 tmp = output_file

@@ -9,5 +9,5 @@ import os
 
 # Set path variables for simulation files and data
 BASE_DIR = os.path.dirname(__file__)
-DATA_DIR = os.path.join(BASE_DIR, '../data')
+DATA_DIR = os.path.join(BASE_DIR, '..','data')
 PREFERENCE_FILE= os.path.join(BASE_DIR, '.preferences.yaml')
