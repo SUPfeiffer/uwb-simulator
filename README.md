@@ -1,7 +1,7 @@
 # uwb-simulator
 The uwb-simulator is a tool to compare localization algorithms based on Ultra-Wideband ranging. The simulator currently only runs on logfiles of recorded trajectories (original IMU & groundtruth), but can be used to simulate UWB ranging data if desired.
 
-This code was used to compare an Extended Kalman Filter (EKF) and a computationally efficient Moving Horizon Estimator (MHE) for the publication "A Computationally Efficient Moving Horizon Estimator for Ultra-Wideband Localization on Small Drones" by S. Pfeiffer, C. de Wagter and G.C.H.E. de Croon. For more details you may refer to the publication [here](Link will be updated added upon publication)
+This code was used to compare an Extended Kalman Filter (EKF) and a computationally efficient Moving Horizon Estimator (MHE) for the publication "A Computationally Efficient Moving Horizon Estimator for Ultra-Wideband Localization on Small Drones" by S. Pfeiffer, C. de Wagter and G.C.H.E. de Croon. For more details you may refer to the publication [here](https://doi.org/10.1109/LRA.2021.3095519).
 
 ## Installation
 
